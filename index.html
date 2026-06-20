@@ -1,28 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <title>O Salon de Laurine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>O Salon de Laurine</title>
 </head>
 
 <body>
+
     <header>
-        <div class="menu">
-            <p>Accueil</p>
-            <p>À propos</p>
-            <p>Services</p>
-            <p>Boutique</p>
-            <p>Contact</p>
+
+        <nav>
+            <div class="logo">O Salon de Laurine</div>
+
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#boutique">Boutique</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Beauté naturelle & bien-être</h1>
+                <p>
+                    Remplacez ce texte par votre slogan ou une courte présentation du salon.
+                </p>
+
+                <a href="#contact" class="btn">Prendre rendez-vous</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="presentation">
+
+        <div class="section-title">
+            <h2>Présentation</h2>
+            <p>Présentez votre salon et votre histoire.</p>
+        </div>
+
+        <div class="presentation">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1000&q=80"
+                alt="Salon de coiffure">
+
+            <div>
+                <h3>Votre texte ici</h3>
+                <p>
+                    Remplacez ce contenu par la présentation de votre salon,
+                    votre expérience, vos valeurs et votre approche.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services">
+
+        <div class="section-title">
+            <h2>Services</h2>
+            <p>Présentez vos prestations.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>Coupe</h3>
+                <p>Description du service.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Coloration</h3>
+                <p>Description du service.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Balayage</h3>
+                <p>Description du service.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Soins capillaires</h3>
+                <p>Description du service.</p>
+            </div>
 
         </div>
-    </header>
-    <main>
-        <h1>O Salon de Laurine, salon de coiffure situé à Plounéour-Brignogan Plages dans le Finistère.</h1>
-    </main>
+
+    </section>
+
+    <section id="boutique">
+
+        <div class="section-title">
+            <h2>Boutique</h2>
+            <p>Présentez vos produits.</p>
+        </div>
+
+        <div class="boutique-grid">
+
+            <div class="produit">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"
+                    alt="">
+                <div class="produit-content">
+                    <h3>Produit 1</h3>
+                    <p>Description du produit.</p>
+                    <div class="prix">00,00 €</div>
+                </div>
+            </div>
+
+            <div class="produit">
+                <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80"
+                    alt="">
+                <div class="produit-content">
+                    <h3>Produit 2</h3>
+                    <p>Description du produit.</p>
+                    <div class="prix">00,00 €</div>
+                </div>
+            </div>
+
+            <div class="produit">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+                    alt="">
+                <div class="produit-content">
+                    <h3>Produit 3</h3>
+                    <p>Description du produit.</p>
+                    <div class="prix">00,00 €</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Ajoutez vos coordonnées et votre formulaire.</p>
+        </div>
+
+        <div class="contact">
+
+            <form>
+                <input type="text" placeholder="Nom">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Votre message"></textarea>
+
+                <button type="submit">
+                    Envoyer
+                </button>
+            </form>
+
+        </div>
+
+    </section>
+
     <footer>
-        <p>Copyright &copy; 2026 O Salon de Laurine. Tous droits réservés.</p>
+        © 2025 - Nom du Salon | Tous droits réservés
     </footer>
+
 </body>
 
 </html>
