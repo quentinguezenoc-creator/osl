@@ -209,9 +209,28 @@ section {
     line-height: 1.8;
 }
 
-.contact-infos .btn {
-    margin-top: 20px;
-    display: inline-block;
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.contact-buttons .btn {
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+}
+
+.btn-secondary {
+    background: white;
+    color: var(--vert-fonce);
+    border: 2px solid var(--vert-fonce);
+}
+
+.btn-secondary:hover {
+    background: var(--vert-fonce);
+    color: white;
 }
 
 .contact-map {
