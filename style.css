@@ -29,7 +29,7 @@ body {
 header {
     background: linear-gradient(rgba(73, 106, 77, 0.7),
             rgba(73, 106, 77, 0.7)),
-        url('salon.jpg');
+        url('salon_exterieur.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
