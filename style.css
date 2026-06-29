@@ -156,76 +156,11 @@ section {
     margin-bottom: 15px;
 }
 
-/* BOUTIQUE */
-
-.boutique-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-}
-
-.produit {
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-}
-
-.produit img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.produit-content {
-    padding: 20px;
-}
-
-.prix {
-    color: var(--vert-fonce);
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
 /* CONTACT */
 
 .contact {
     background: var(--vert-clair);
     border-radius: 20px;
-}
-
-form {
-    display: grid;
-    gap: 15px;
-    max-width: 700px;
-    margin: auto;
-}
-
-input,
-textarea {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-}
-
-textarea {
-    min-height: 150px;
-    resize: vertical;
-}
-
-button {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    background: var(--vert-principal);
-    color: white;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-button:hover {
-    background: var(--vert-fonce);
 }
 
 footer {
