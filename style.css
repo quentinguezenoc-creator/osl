@@ -287,6 +287,8 @@ section {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background: var(--vert-fonce);
     color: white;
     text-align: center;
