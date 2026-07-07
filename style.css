@@ -81,6 +81,20 @@ nav a:hover {
     color: var(--vert-clair);
 }
 
+.socials img {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.socials svg {
+    fill: white;
+}
+
+.socials a:hover svg {
+    fill: var(--vert-clair);
+}
+
 .hero {
     height: calc(90vh - 90px);
     display: flex;
