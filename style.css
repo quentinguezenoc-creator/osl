@@ -85,6 +85,16 @@ nav a:hover {
     margin: auto;
 }
 
+.hero-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hero-button .btn {
+    margin-top: 0;
+}
+
 .btn {
     display: inline-block;
     margin-top: 30px;
@@ -128,15 +138,12 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+    text-align: justify;
 }
 
 .presentation img {
     width: 100%;
     border-radius: 20px;
-}
-
-.presentation {
-    text-align: justify;
 }
 
 /* SERVICES */
