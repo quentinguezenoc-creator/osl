@@ -16,3 +16,21 @@ document.querySelectorAll('[data-target]').forEach(link => {
     });
 
 });
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-menu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+
+    menuToggle.textContent = navMenu.classList.contains("active")
+        ? "✕ Fermer"
+        : "☰ Menu";
+});
+
+document.querySelectorAll(".nav-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+        menuToggle.textContent = "☰ Menu";
+    });
+});
