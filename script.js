@@ -33,8 +33,4 @@ document.querySelectorAll(".nav-menu a").forEach(link => {
         navMenu.classList.remove("active");
         menuToggle.textContent = "☰ Menu";
     });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 8782961bdd799f51a6afe221a710cad2d1048b8c
